@@ -30,6 +30,36 @@
   top: 0px;
 }
 
+.contato-linkedin::before {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: url("../img/linkedin.svg") center no-repeat;
+  background-repeat: no-repeat;
+  -webkit-mask-image: url("../img/linkedin.svg");
+  background-image: linear-gradient(#93278f, #602483);
+  mask-image: url("../img/linkedin.svg");
+  left: -40px;
+  top: 120px;
+}
+
+.contato-git::before {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: url("../img/github.svg") center no-repeat;
+  background-repeat: no-repeat;
+  -webkit-mask-image: url("../img/github.svg");
+  background-image: linear-gradient(#93278f, #602483);
+  mask-image: url("../img/github.svg");
+  left: -40px;
+  top: 180px;
+}
+
 .contato-telefone::before {
   display: block;
   content: "";
@@ -78,6 +108,16 @@
     font-size: 1.25rem;
   }
   .contato-email::before {
+    display: inline-block;
+    position: initial;
+    margin: 0px 15px 0px 0px;
+  }
+  .contato-linkedin::before {
+    display: inline-block;
+    position: initial;
+    margin: 0px 15px 0px 0px;
+  }
+  .contato-git::before {
     display: inline-block;
     position: initial;
     margin: 0px 15px 0px 0px;

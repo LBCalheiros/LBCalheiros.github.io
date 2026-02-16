@@ -33,6 +33,11 @@
   color: #525252;
 }
 
+.intro p + p {
+  margin-top: 16px;
+  font-size: 1.25rem;
+}
+
 @media (max-width: 1000px) {
   .intro h1 {
     font-size: 3rem;
